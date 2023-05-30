@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@pracaporuch" />
+    <meta name="twitter:creator" content="@vladincar" />
+    <meta name="twitter:title" content="Праця завжди поруч - просто обери" />
+    <meta name="twitter:description" content="Унікальний сайт з пошуку роботи, де ви можете шукати свою ідеальну вакансію на
+    інтерактивній карті. Наш сайт пропонує інноваційний підхід до пошуку роботи, надаючи користувачам можливість
+    шукати вакансії на основі географічного розташування." />
+    <meta name="twitter:image" content="img/social-icon.png" />
+    <meta property="og:type" content="text" />
+    <meta property="og:url" content="https://pracaporuch.com/" />
+    <meta property="og:title" content="Праця завжди поруч - просто обери" />
+    <meta property="og:description" content="Унікальний сайт з пошуку роботи, де ви можете шукати свою ідеальну вакансію на
+    інтерактивній карті. Наш сайт пропонує інноваційний підхід до пошуку роботи, надаючи користувачам можливість
+    шукати вакансії на основі географічного розташування." />
+    <meta property="og:image" content="img/social-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="img/tab-icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Open+Sans:wght@400;500;600;700;800&family=Rubik:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Praca Poruch - просто обери</title>
+</head>
+
+<body>
+    <div class="hidered"></div>
+    <header>
+        <div class="trueWidth">
+            <nav>
+                <img src="img/logo-d.svg" alt="" class="logo">
+                <ul>
+                    <li><a href="tel:+380984008678">+38 (098) 400-86-78</a></li>
+                    <li><a target="_blank" href="https://t.me/+380984008678"><img src="img/telegram.png" alt=""
+                                srcset=""></a></li>
+                    <li><a target="_blank" href="viber://chat/?number=%2B380984008678"><img src="img/viber.png" alt=""
+                                srcset=""></a></li>
+                    <li><a href="https://wa.me/+380984008678" target="_blank"><img src="img/whatsap.png" alt=""
+                                srcset=""></a></li>
+                </ul>
+            </nav>
+            <h1>Праця завжди поруч - просто обери</h1>
+            <div class="filter-btn">
+                <p>Фільтри</p>
+                <img src="img/close-filter.svg" alt="" srcset="">
+            </div>
+        </div>
+        <div class="filter filter-header">
+            <p>Робота для:</p>
+            <ul class="js-header-filter">
+                <li>Чоловіки</li>
+                <li>Жінки</li>
+                <li>Пари</li>
+                <li>+ Діти</li>
+            </ul>
+            <p>Введіть місто:</p>
+            <div class="js-header-filter placeInput">
+            <input class="inputJs" placeholder="Робота в...">
+            </input>
+            <img src="img/search.svg" alt="" class="searchPlacesImg">
+            
+        </div>
+        </div>
+    </header>
+    <div class="map">
+    </div>
+
+
+    <div class="filter filter-footer">
+        <div class="d-arrow"><img src="img/double-arrow.svg" alt=""></div>
+        <p>Шукати тільки:</p>
+        <ul class="js-footer-filter">
+            <li><img src="img/pin/blue.svg" alt="">
+                <p>Різноробочі</p>
+                <div><img src="img/cross.svg" alt=""></div>
+            </li>
+            <li><img src="img/pin/black.svg" alt="">
+                <p>Cпеціалісти</p>
+                <div><img src="img/cross.svg" alt=""></div>
+            </li>
+            <li><img src="img/pin/green.svg" alt="">
+                <p>Польові роботи</p>
+                <div><img src="img/cross.svg" alt=""></div>
+            </li>
+            <li><img src="img/pin/orange.svg" alt="">
+                <p>Різне</p>
+                <div><img src="img/cross.svg" alt=""></div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="opened-job opened-job-closed">
+        <div class="job-name">
+            <h2></h2>
+            <div class="close-job"><img src="img/close-job-d.svg" alt=""></div>
+        </div>
+        <div class="opened-job-scroll">
+        </div>
+        <div class="opened-job-footer">
+            <div class="opened-job-min-footer">Дізнатись більше</div>
+            <a target="_blank" href="" class="marshrut">
+                <p>Побудувати маршрут</p><img src="img/direction.svg" alt="">
+            </a>
+            <ul>
+                <li><a href="tel:+380984008678">+38 (098) 400-86-78</a></li>
+                <li><a target="_blank" href="https://t.me/+380984008678"><img src="img/telegram.png" alt=""
+                            srcset=""></a></li>
+                <li><a target="_blank" href="viber://chat/?number=%2B380984008678"><img src="img/viber.png" alt=""
+                            srcset=""></a></li>
+                <li><a href="https://wa.me/+380984008678" target="_blank"><img src="img/whatsap.png" alt=""
+                            srcset=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <script defer>
+
+        setTimeout(() => {
+            document.querySelector('.hidered').classList.add('hidered-hide')
+            document.querySelector('.loadAnimBlur').classList.add('loadAnimBlur-transition')
+            document.querySelector('.loadAnim').classList.add('loadAnim-transition')
+        }, 1500);
+        if (window.innerWidth < 600) {
+            const opened_job = document.querySelector('.opened-job');
+            let scrHeight = window.innerHeight
+            opened_job.style.maxHeight = (scrHeight - 30) + 'px'
+            document.querySelector('.logo').src = 'img/logo-m.svg';
+            document.querySelector('.d-arrow img').src = 'img/mob-double-arrow.svg';
+            document.querySelector('.marshrut p').innerHTML = 'Маршрут';
+        }
+        if (window.innerWidth < 400) {
+            document.querySelector('.marshrut p').innerHTML = '';
+        }
+
+        const filter_btn = document.querySelector('.filter-btn');
+        const filter_header = document.querySelector('.filter-header');
+        const filter_footer = document.querySelector('.filter-footer');
+        const d_arrow = document.querySelector('.d-arrow');
+        const h2Hide = document.querySelector('.trueWidth');
+
+        filter_btn.addEventListener('click', filterBtn());
+        d_arrow.addEventListener('click', dArrow);
+
+        function filterBtn() {
+            let x = true;
+            return function () {
+                x ? filter_btn.querySelector('img').src = 'img/open-filter.svg' : filter_btn.querySelector('img').src = 'img/close-filter.svg'
+                filter_header.classList.toggle('filter-header-opened');
+                filter_btn.classList.toggle('filter-btn-opened');
+                return x = !x;
+            }
+        }
+        function dArrow() {
+            h2Hide.classList.add('hideOnMobile')
+            filter_footer.classList.toggle('filter-footer-closed');
+        }
+
+    </script>
+    <script src="https://unpkg.com/togeojson@latest"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initMap"></script>
+
+    <div class="loadAnim"><img src="img/img-load.png" alt="" class="logo"></div>
+    <div class="loadAnimBlur"></div>
+</body>
+
+</html>

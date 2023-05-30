@@ -1,0 +1,38 @@
+* {
+  --h1: 4.263rem;
+  --h2:2.399rem;
+  --mid-f: 2rem;
+  --low-f: 1.8rem;
+  --one-f: 1.6rem;
+
+  --white: #FDF1F2;
+  --black: #0D0106;
+
+  --transition:0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+
+@media only screen and (max-width: 1024px) {
+  * {
+    --h1: 3.198rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  * {
+    --h2: 2.133rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    --h1: 2.543rem;
+    --h2:1.933rem;
+    --mid-f: 1.8rem;
+    --low-f: 1.6rem;
+  }
+}
+@media only screen and (max-width: 370px) {
+  * {
+    --mid-f: 1.6rem;
+  }
+}
